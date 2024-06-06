@@ -1,0 +1,1 @@
+pandoc -s --dpi=300 --slide-level 2 --toc --listings --shift-heading-level=0 --data-dir="${DATA_DIR}" --template src/default_mod.latex -V classoption:aspectratio=169 -t beamer presentation.md -o presentation.pdf
